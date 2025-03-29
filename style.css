@@ -1,0 +1,102 @@
+*{
+    font-family: "Playfair Display", serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5%;
+    top: 0;
+    background-color: gray;
+}
+a{
+    color: black;
+}
+.header,a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    left: 0;
+}
+.logo{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box:hover{
+    border: 2px solid white;
+
+}
+.login{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.mode{
+    margin-left: 1100px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.code{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.html{
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.css{
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.js{
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.cade,p{
+    margin-left: 40px;
+}
+.output{
+    height: 900px;
+    width: 50%;
+}
+.op{
+    margin-left: 3rem;
+    height: 90%;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.run{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.run,button{
+    margin-right: 2rem;
+    
+}
+button{
+    background-color: rgb(93, 93, 219);
+    color: white;
+    height: 2.5rem;
+    width: 4rem;
+    border-radius: 10px;
+}
+
